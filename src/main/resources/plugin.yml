@@ -1,0 +1,14 @@
+name: TNTBow
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+description: Fire TNT arrows and throw explosive TNT charges.
+commands:
+  tntbow:
+    description: Gives you the TNT bow.
+    usage: /tntbow
+    permission: tntbow.use
+permissions:
+  tntbow.use:
+    description: Allows use of the TNT bow command.
+    default: op
